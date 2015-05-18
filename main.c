@@ -18,3 +18,4 @@ void fun_a(void){}
 void fun_az(void){}
 void fun_tr(void){}
 void fun_ez(void){}
+void fun_fr(void){}
