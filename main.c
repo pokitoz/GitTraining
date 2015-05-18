@@ -14,6 +14,12 @@ void fun_q(void){}
 void fun_r(void){}
 
 void fun_a(void){}
+void fun_az(void){}
+void fun_tr(void){}
+void fun_ez(void){}
+void fun_fr(void){}
+void fun_ee(void){}
+
 void fun_b(void){}
 void fun_c(void){}
 void fun_d(void){}
