@@ -10,3 +10,4 @@ void fun_b(void){}
 void fun_c(void){}
 void fun_d(void){}
 void fun_e(void){}
+void fun_f(void){}
