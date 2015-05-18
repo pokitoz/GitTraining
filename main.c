@@ -17,3 +17,4 @@ void fun_a(void){}
 >>>>>>> 48ae9fd... Automatic commit function a
 void fun_az(void){}
 void fun_tr(void){}
+void fun_ez(void){}
