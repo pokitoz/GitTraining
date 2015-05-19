@@ -5,7 +5,7 @@ int main(void)
 printf("Branch1!");
 return 0;
 }
-void fun_n(void){}
+void fun_n(void){return;}
 void fun_m(void){}
 void fun_l(void){}
 void fun_p(void){}
