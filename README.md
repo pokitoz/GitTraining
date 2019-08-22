@@ -30,4 +30,16 @@ git commit -a --amend --no-edit" \
 HEAD~
 ```
 
+## Break a commit
+
+Rebase to the commit, reset the commit, update the commit
+```
+git rebase -i HEAD~<N>
+git reset HEAD~
+git add ...
+git commit -c ORIG_HEAD
+git add ...
+git commit -s
+git rebase --continue
+```
 
