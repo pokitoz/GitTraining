@@ -1,15 +1,14 @@
 # GitTraining
-How to use all the commands GIT
+Basic git commands
 
-#mkdir folder.git
+## Push to a new remote
 
-#cd example.git
-
-#git init —bare
-
-#git clone H:\folder.git folder
-
-
+Add the remote, list the remotes,..
+```
+git remote --set-url github-upstream <url>
+git remote -v
+git push github-upstream
+```
 
 
 
