@@ -58,3 +58,42 @@ git rebase -i origin/<branch name>
 git fetch <specific commits>
 git cherry-pick first-sha^..last-sh
 ```
+
+## Reflog!
+
+Probably the best command ever.. Gives the history of the previous commands.
+```
+git reflog
+git reset --hard HEAD~{0}
+git reset HEAD~{0}
+```
+
+## Git Stash!
+
+List all the stashed changes (`stash@{i}` is the name to refer to)
+```
+git stash list
+git stash show -p stash@{i}
+```
+
+Restore a stashed change (without argument it will be the one at top):
+```
+git stash pop stash@{i}
+```
+
+Stash a change with a specific name. It is also possible to stash with -p:
+```
+git stash save "blablabla"
+git stash -p
+```
+
+Remove a stashed change with a specific name:
+```
+git stash drop stash@{i}
+```
+
+Do not remove the change from the stash put apply
+```
+git stash apply
+```
+
