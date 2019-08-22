@@ -51,3 +51,10 @@ commit of the branch.
 git fetch --all
 git rebase -i origin/<branch name>
 ```
+
+## Cherry pick a list of patches that follows
+
+```
+git fetch <specific commits>
+git cherry-pick first-sha^..last-sh
+```
