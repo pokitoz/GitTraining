@@ -43,3 +43,11 @@ git commit -s
 git rebase --continue
 ```
 
+## Rebase patches onto a branch
+
+Patches to be kept in the interactive rebase will be rebased onto the last
+commit of the branch.
+```
+git fetch --all
+git rebase -i origin/<branch name>
+```
