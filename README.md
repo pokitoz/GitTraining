@@ -22,7 +22,12 @@ If there are some unmodified changes, use
 git stash && git rebase --whitespace=fix HEAD~ && git stash pop
 ```
 
+## Execute command for multiple commits
 
-
+```
+git rebase -i -x "find ./ -type f -exec sed -i 's/old/new/g' {} +  && \
+git commit -a --amend --no-edit" \
+HEAD~
+```
 
 
