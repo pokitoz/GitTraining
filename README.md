@@ -10,6 +10,18 @@ git remote -v
 git push github-upstream
 ```
 
+## Remove whitespace
+
+Remove white space of current HEAD
+```
+git rebase --whitespace=fix HEAD~
+```
+
+If there are some unmodified changes, use
+```
+git stash && git rebase --whitespace=fix HEAD~ && git stash pop
+```
+
 
 
 
