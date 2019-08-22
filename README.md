@@ -59,6 +59,9 @@ git fetch <specific commits>
 git cherry-pick first-sha^..last-sh
 ```
 
+Cherry pick can be used to take a commit from a branch and put it to the current
+branch.
+
 ## Reflog!
 
 Probably the best command ever.. Gives the history of the previous commands.
