@@ -10,6 +10,11 @@ git remote -v
 git push github-upstream
 ```
 
+## Push a branch to a remote branch
+```
+git push <remote> -f <local branch>:<remote branch>
+```
+
 ## Remove whitespace
 
 Remove white space of current HEAD
